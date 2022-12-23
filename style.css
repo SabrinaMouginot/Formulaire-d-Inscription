@@ -4,3 +4,27 @@ legend{
     font-family: arial;
     text-shadow: 2px 2px greenyellow;
 }
+ 
+tr td:first-child{
+    color: blueviolet;
+    font-size: 10px;
+    font-family: arial;
+}
+ 
+tr td:last-child{
+    color: red;
+    font-family: arial;
+}
+ 
+input{
+    background: aquamarine;
+    border: 2px solid blue;
+    border-radius: 10px 10px;
+}
+input:hover{
+    background: bisque;
+}
+input:focus{
+    background: aliceblue;
+    color: black;
+}
