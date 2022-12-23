@@ -28,3 +28,14 @@ input:focus{
     background: aliceblue;
     color: black;
 }
+.classe:hover{
+    width: 70px;
+    height: 40px;
+    border: 2px dashed background;
+    background: beige;
+}
+ 
+label{
+    font-size: 9px;
+    font-style: italic;
+}
