@@ -7,10 +7,12 @@
         <link href="style.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <form onsubmit="verify()">
-            <fieldset>
-                <legend>Inscription</legend>
-                <table border="0">
+        <form onsubmit="verify()">              <!-- <form action="#"> : La valeur de <form> correspond à la valeur de l'attribut id d'un élément <form> de la même page. 
+                                                De cette façon, on peut avoir un élément <fieldset> qui soit rattaché à un formulaire mais qui ne soit pas imbriqué dans ce formulaire. 
+                                                    (L'attribut disabled permet de désactiver l'élément <fieldset> ainsi que l'ensemble de son contenu via une seule valeur.) -->
+            <fieldset>                          <!-- <fieldset> regroupe plusieurs contrôles interactifs ainsi que des étiquettes (<label>) dans un formulaire HTML. -->
+                <legend>Inscription</legend>    <!-- et d'associer une légende (<legend>) décrivant ce groupe. -->
+                  <table border="0">
                         <tr>
                             <td>Nom</td>
                             <td><input type="text" name="nom" value="" required="" autofocus="" placeholder="Tapez votre nom" pattern="[A-Z]*" title="En majuscule"/></td>
